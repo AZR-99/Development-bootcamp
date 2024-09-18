@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SECOND PAGE</title>
+</head>
+<body>
+<h1> <i>All Students </i></h1>
+<br>
+
+<table border="1"> 
+    <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Grade</th>
+    <th>Actions</th>
+    </tr>
+<tr>
+<td>Billy</td>
+<td>19</td>
+<td>7</td>
+<td>
+    <button>Edit</button>
+    <button>Delete</button>
+</td>
+</tr>
+<tr>
+    <td>Ben</td>
+    <td>21</td>
+    <td>4</td>
+    <td>
+        <button>Edit</button>
+        <button>Delete</button>
+    </td>
+</tr>
+
+</table>
+<br>
+<button>Add Student</button> 
+<br><br>
+<button>Update Student</button>
+<br><br>
+<a href="Home">Go to FIRST PAGE</a>
+</body>
+</html>

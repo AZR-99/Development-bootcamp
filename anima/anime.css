@@ -1,0 +1,12 @@
+div{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    animation-name: demo;
+    animation-duration: 40s;
+}
+
+@keyframes demo{
+    from {background-color:aqua}
+    to {background-color: blue;}
+}

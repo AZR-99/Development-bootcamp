@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SECOND PAGE</title>
+</head>
+<body>
+<h1> <i>All Students </i></h1>
+<br>
+
+<table border="1"> 
+    <caption>Favourite and least Favourite</caption>
+    <tr>
+    <th></th>
+    <th></th>
+    <th>Bob</th>
+    <th>Alice</th>
+    </tr>
+    <tr>
+        <th rowspan="2">Favourite</th>
+        <th>Colour</th>
+        <th>Blue</th>
+        <th>Purple</th>
+        </tr>
+        <tr>
+    <th>Flavour</th>
+    <th>Bannana</th>
+    <th>Chocolate</th>
+    </tr>
+    <tr>
+        <th rowspan="2">Least Favourite</th>
+        <th>Colour</th>
+        <th>Yellow</th>
+        <th>Pink</th>
+        </tr>
+        </tr>
+
+</table>
+
+</body>
+</html>
