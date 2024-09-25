@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="calc.js"></script>
+</head>
+<body>
+    <h1><b>Calculator</b></h1>
+    
+    <div class="container">
+        <div class="input">
+            <input type="number" id="firstnumber" placeholder="Enter first number here">
+            <br><br>
+            <input type="number" id="secondnumber" placeholder="Enter second number here">
+        </div>
+
+        <br>
+
+        <div class="button">
+            <button onclick="add()"> + </button>
+            <button onclick="subtract()"> - </button>
+            <button onclick="multiply()"> &times; </button>
+            <button onclick="divide()"> &divide; </button>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="text" id="result" placeholder="Result will be here">
+        </div>
+    </div>
+</body>
+</html>
